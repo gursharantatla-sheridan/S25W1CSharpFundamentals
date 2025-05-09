@@ -73,6 +73,20 @@
             //int n = int.Parse(s);
             int n = Convert.ToInt32(s);
             Console.WriteLine(n);
+            Console.WriteLine("\n\n");
+
+
+            double amount = 4564.2345;
+            Console.WriteLine(amount.ToString("C"));
+
+            double discount = 0.15;
+            Console.WriteLine(discount.ToString("P0"));
+
+
+            int? z = null;
+
+
+            //int num = amount as int;
         }
     }
 
