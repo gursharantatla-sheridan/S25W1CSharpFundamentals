@@ -16,6 +16,17 @@
 
 
             Console.WriteLine(@"hello\nworld");
+            Console.WriteLine("\n\n");
+
+
+
+            int cars = 4, trucks = 3, bikes = 8;
+
+            // string concatenation
+            Console.WriteLine("There are " + cars + " cars, " + trucks + " trucks and " + bikes + " bikes");
+
+            // string interpolation
+            Console.WriteLine($"There are {cars} cars, {trucks} trucks and {bikes} bikes");
         }
     }
 }
